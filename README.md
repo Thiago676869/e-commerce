@@ -6,3 +6,6 @@ Layout para um site E-commerce com responsividade e organização com estrutura 
 - :up: atualização
 - :beetle: correção de bug
 - :checkered_flag: release
+
+### link página
+https://thiago676869.github.io/e-commerce
