@@ -1,0 +1,30 @@
+                   - ITCSS - 
+o seletor com mais "força" sobrescreve o seletor mais "fraco".
+
+Piramide inversa.
+
+1 --------------------setings--------------------
+Camada para declar as configurações do projeo, como variaveis de medidas, cores, etc.
+
+2 -  ------------------tools------------------
+Camada para os mixins, funções necessárias para construção dos layout.
+se não estiver usando o pre-processador sass ou less, essa camada não precisa existir.
+
+3 -    ---------------generic--------------
+Primeira camada que vai aplicar o css final, ela é destinada para propriedades mais genericas com
+menor especificidade possivel. geralmente é onde colocamos reset, box-sizing, etc
+
+4 -      -------------elements----------
+Camada para estilizar a parte mais basica do elemento(tag). Nada de ID, nem classes, apenas
+seletores como buttom, headings h1-h6, etc.
+
+5 -        -----------objects---------
+Css orientada a objetos. Utillizado para padrões de botoes, listas, paineis, etc.
+
+6 -          --------components-----
+ainda mais especifico que objects.
+
+7 -            --------trumps----
+pequenas classes, e seletor bem especifico, aplicação de @imports
+
+
